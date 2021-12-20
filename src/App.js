@@ -1,11 +1,16 @@
+import React, { Component } from 'react';
+import PersonalInfo from './components/PersonalInfo';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends Component {
+
+  render() {
+    return (
+      <div id='container'>
+        <PersonalInfo />
+      </div>
+    )
+  }
 }
 
 export default App;
