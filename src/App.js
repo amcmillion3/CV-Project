@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PersonalInfo from './components/PersonalInfo';
+import EducationInfoDisplay from './components/EducationInfo';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div id='container'>
         <PersonalInfo />
+        <EducationInfoDisplay />
       </div>
     )
   }
